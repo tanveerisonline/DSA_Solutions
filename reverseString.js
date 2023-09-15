@@ -8,7 +8,7 @@ function revStr(str) {
   for (let i = totalItems; i >= 0; i--) {
     backwords.push(str[i]);
   }
-
+  console.log(backwords);
   return backwords.join;
 }
 revStr("my name is Tanveer");
