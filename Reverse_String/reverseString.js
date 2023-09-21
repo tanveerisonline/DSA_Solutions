@@ -9,7 +9,7 @@ function revStr(str) {
     backwords.push(str[i]);
   }
   console.log(backwords);
-  return backwords.join;
+  return backwords.join("");
 }
 
 revStr("my name is Tanveer");
